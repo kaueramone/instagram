@@ -128,19 +128,19 @@ body {
 
 /* media queries */
 
-@media only screen and (max-widht: 1024px) {
+@media (max-width: 1024px) {
     .instagamer-wrapper {
-        width: 90%;
+        width: 80%;
     }
 }
 
-@media only screen and (max-widht: 650px) {
+@media (max-width: 650px) {
     body {
         background-color: #fff
     }
     
     .instagamer-wrapper {
-        width: 90%;
+        width: 80%;
     }
 
     .instagamer-phone {
